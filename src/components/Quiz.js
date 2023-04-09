@@ -73,6 +73,7 @@ const Quiz = (setTimeOut) => {
       {!quizState.showResults && (
         <div>
           <ProgressBar />
+          
           <div className="score">
             Question {quizState.currentQuestionIndex + 1}/
             {quizState.questions.length}
