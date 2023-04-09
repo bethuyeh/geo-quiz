@@ -53,22 +53,6 @@
   padding: 10px;
 }
 
-@media screen and (max-width:672px){
-  .start-buttons{
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    padding: auto;
-  }
-
-  .startpage h1{
-    font-size: 3rem;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    padding: auto;
-  }
-}
 
 body {
   background-color: #e4e4e4;
@@ -299,5 +283,23 @@ div {
 
   .score{
     margin-top: 73px;
+  }
+}
+
+@media screen and (max-width:672px){
+  .start-buttons{
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+  }
+
+  .startpage h1{
+    font-size: 2rem;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: auto;
   }
 }
