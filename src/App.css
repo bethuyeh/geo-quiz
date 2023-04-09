@@ -294,6 +294,7 @@ div {
   .buttons{
     display: block;
     margin: 12px;
+    margin-top: 10px;
   }
 
   .score{
